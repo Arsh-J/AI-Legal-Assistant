@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-# ⚖️ LexAI
+# ⚖️ LexBrain AI
 
 **AI-Powered Legal Assistant · Indian Penal Code · Google Gemini · 5-Agent Pipeline**
 
