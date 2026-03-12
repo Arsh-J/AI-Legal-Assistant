@@ -487,7 +487,7 @@ export default function LandingPage() {
           <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
             <span style={{ fontSize: 22, filter: "drop-shadow(0 0 8px rgba(59,130,246,0.6))" }}>⚖️</span>
             <div>
-              <span style={{ fontFamily: "'Playfair Display', serif", fontWeight: 900, fontSize: 20, color: "#EDF2F7", letterSpacing: "0.5px" }}>LexAI</span>
+              <span style={{ fontFamily: "'Playfair Display', serif", fontWeight: 900, fontSize: 20, color: "#EDF2F7", letterSpacing: "0.5px" }}>LexBrain AI</span>
               <span style={{ fontSize: 9, fontWeight: 700, color: "var(--amber)", marginLeft: 8, letterSpacing: "2px", opacity: 0.8 }}>INDIA</span>
             </div>
           </div>
@@ -628,7 +628,7 @@ export default function LandingPage() {
       {/* ── FOOTER ── */}
       <footer style={{ position: "relative", zIndex: 2, borderTop: "1px solid var(--border)", padding: "24px 6%", textAlign: "center" }}>
         <p style={{ fontSize: 12, color: "var(--dim)", opacity: 0.5 }}>
-          © 2024 LexAI India · For informational purposes only · Not a substitute for professional legal advice
+          © 2024 LexBrain AI India · For informational purposes only · Not a substitute for professional legal advice
         </p>
       </footer>
     </div>

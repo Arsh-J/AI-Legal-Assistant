@@ -186,7 +186,7 @@ export default function DashboardPage() {
         <div style={{ maxWidth: 1100, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 62 }}>
           <Link href="/" style={{ display: "flex", alignItems: "center", gap: 10, textDecoration: "none" }}>
             <span style={{ fontSize: 18, filter: "drop-shadow(0 0 5px rgba(59,130,246,0.4))" }}>⚖️</span>
-            <span style={{ fontFamily: "'Playfair Display', serif", fontWeight: 900, fontSize: 17, color: "var(--bright)" }}>LexAI</span>
+            <span style={{ fontFamily: "'Playfair Display', serif", fontWeight: 900, fontSize: 17, color: "var(--bright)" }}>LexBrain AI</span>
           </Link>
           <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
             {userName && (

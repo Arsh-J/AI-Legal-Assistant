@@ -1,7 +1,7 @@
 /**
  * Aurora — JS + CSS animated background
  * Ported from React Bits (https://www.reactbits.dev/backgrounds/aurora)
- * Adapted for the LexAI dark amber/gold colour scheme.
+ * Adapted for the LexBrain AI dark amber/gold colour scheme.
  */
 "use client";
 import { useEffect, useRef } from "react";

@@ -30,7 +30,7 @@ export default function CasePage() {
     try {
       const r = await reportApi.download(Number(id), format);
       const url = URL.createObjectURL(new Blob([r.data]));
-      const a = document.createElement("a"); a.href = url; a.download = `lexai_report_${id}.${format}`; a.click();
+      const a = document.createElement("a"); a.href = url; a.download = `lexbrain_ai_report_${id}.${format}`; a.click();
       URL.revokeObjectURL(url);
       toast.success(`${format.toUpperCase()} downloaded.`);
     } catch { toast.error("Download failed."); }

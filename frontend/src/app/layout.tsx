@@ -3,7 +3,7 @@ import "./globals.css";
 import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
-  title: "LexAI — Indian Legal Intelligence",
+  title: "LexBrain AI — Indian Legal Intelligence",
   description: "AI-powered Indian legal analysis. IPC sections, outcome prediction, and professional reports in seconds.",
 };
 

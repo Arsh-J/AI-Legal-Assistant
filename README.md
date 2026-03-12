@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HERO IMAGE -->
-<img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80" width="280" alt="LexAI — AI Legal Assistant for India" style="border-radius:12px"/>
+<img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80" width="280" alt="LexBrain AI — AI Legal Assistant for India" style="border-radius:12px"/>
 
 <br/>
 <br/>
@@ -43,7 +43,7 @@
 
 ## Table of Contents
 
-- [What is LexAI?](#what-is-lexai)
+- [What is LexBrain AI?](#what-is-lexbrain-ai)
 - [The Problem](#the-problem)
 - [Solution Overview](#solution-overview)
 - [Live Demo](#live-demo)
@@ -58,9 +58,9 @@
 
 ---
 
-## What is LexAI?
+## What is LexBrain AI?
 
-**LexAI** is a full-stack web application that gives Indian citizens instant access to legal knowledge — without needing to know the law.
+**LexBrain AI** is a full-stack web application that gives Indian citizens instant access to legal knowledge — without needing to know the law.
 
 A user describes their legal problem in plain English (or speaks it aloud). Five specialized AI agents powered by **Google Gemini 1.5 Flash** process the query sequentially and return:
 
@@ -80,7 +80,7 @@ Every analysis is saved to the user's account and accessible anytime.
 
 When someone is cheated, assaulted, or wronged — they don't know if it's IPC 420 or IPC 406. They don't know whether to file an FIR or send a legal notice first. They don't know what evidence to preserve. Consulting a lawyer costs ₹2,000–₹10,000 for an initial consultation that may happen days later.
 
-LexAI solves this by making legal knowledge **instantly accessible, free, and in plain language** — so people understand their rights before they even speak to an advocate.
+LexBrain AI solves this by making legal knowledge **instantly accessible, free, and in plain language** — so people understand their rights before they even speak to an advocate.
 
 ---
 
@@ -492,7 +492,7 @@ allow_origins=[
 
 ## Authentication
 
-LexAI uses **stateless JWT authentication**:
+LexBrain AI uses **stateless JWT authentication**:
 
 1. User signs up → password hashed with `bcrypt` via `passlib`
 2. User logs in → backend verifies hash → creates JWT signed with `SECRET_KEY` (HS256)

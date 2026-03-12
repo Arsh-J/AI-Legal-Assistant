@@ -27,7 +27,7 @@ export default function SignupPage() {
       await authApi.signup(form);
       const res = await authApi.login({ email: form.email, password: form.password });
       saveToken(res.data.access_token);
-      toast.success("Case file opened. Welcome to LexAI.");
+      toast.success("Case file opened. Welcome to LexBrain AI.");
       router.push("/dashboard");
     } catch (err: any) {
       toast.error(err.response?.data?.detail || "Signup failed. Try again.");
@@ -49,7 +49,7 @@ export default function SignupPage() {
 
         <Link href="/" style={{ display: "flex", alignItems: "center", gap: 10, textDecoration: "none", marginBottom: 64 }}>
           <span style={{ fontSize: 20, filter: "drop-shadow(0 0 6px rgba(59,130,246,0.5))" }}>⚖️</span>
-          <span style={{ fontFamily: "'Playfair Display', serif", fontWeight: 900, fontSize: 18, color: "var(--bright)" }}>LexAI</span>
+          <span style={{ fontFamily: "'Playfair Display', serif", fontWeight: 900, fontSize: 18, color: "var(--bright)" }}>LexBrain AI</span>
         </Link>
 
         <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "clamp(30px,3vw,46px)", fontWeight: 900, color: "var(--bright)", lineHeight: 1.1, marginBottom: 20 }}>
