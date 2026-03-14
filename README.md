@@ -29,9 +29,9 @@
 <!-- LIVE LINKS -->
 | | Link |
 |---|---|
-| 🖥️ **Live Frontend** | [lexai.vercel.app](https://lexai.vercel.app) |
-| ⚡ **Live API** | [lexai-api.onrender.com](https://lexai-api.onrender.com) |
-| 📖 **API Docs (Swagger)** | [lexai-api.onrender.com/docs](https://lexai-api.onrender.com/docs) |
+| 🖥️ **Live Frontend** | [lexai.vercel.app](https://lexbrain-ai.vercel.app) |
+| ⚡ **Live API** | [lexai-api.onrender.com](https://lexbrain-ai.onrender.com) |
+| 📖 **API Docs (Swagger)** | [lexai-api.onrender.com/docs](https://lexbrain-ai.onrender.com/docs) |
 
 <br/>
 
@@ -366,7 +366,7 @@ Downloads a professionally formatted PDF report.
 ### `GET /api/report/download/{id}/docx` 🔐
 Downloads a Word document report.
 
-Full interactive docs at **[lexai-api.onrender.com/docs](https://lexai-api.onrender.com/docs)**
+Full interactive docs at **[lexai-api.onrender.com/docs](https://lexbrain-ai.onrender.com/docs)**
 
 ---
 
