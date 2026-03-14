@@ -3,8 +3,11 @@ import "./globals.css";
 import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
-  title: "LexBrain AI — Indian Legal Intelligence",
-  description: "AI-powered Indian legal analysis. IPC sections, outcome prediction, and professional reports in seconds.",
+  title: "LexBrain AI",
+  description: "AI Legal Assistant for India",
+  icons: {
+    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
