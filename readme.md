@@ -146,7 +146,7 @@ User describes legal situation (text or voice input)
 
 ## Live Demo
 
-**Frontend** — [lexai.vercel.app](https://lexai.vercel.app)
+**Frontend** — [lexai.vercel.app](https://lexbrain-ai.vercel.app)
 
 Create a free account, describe your legal situation, and get a full analysis in seconds. Download the PDF or DOCX report. All cases are saved to your history.
 
@@ -154,12 +154,12 @@ Create a free account, describe your legal situation, and get a full analysis in
 
 ```bash
 # 1. Login and get a token
-curl -X POST https://lexai-api.onrender.com/api/auth/login \
+curl -X POST https://lexbrain-ai.onrender.com/api/auth/login \
   -H "Content-Type: application/json" \
   -d '{"email": "your@email.com", "password": "yourpassword"}'
 
 # 2. Analyze a legal case (use the token from step 1)
-curl -X POST https://lexai-api.onrender.com/api/query/analyze \
+curl -X POST https://lexbrain-ai.onrender.com/api/query/analyze \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer YOUR_TOKEN_HERE" \
   -d '{
@@ -241,7 +241,7 @@ ai-legal-assistant/
 ### 1 — Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/legal-detective.git
+git clone https://github.com/Arsh-J/lexbrain-ai.git
 cd legal-detective
 ```
 
