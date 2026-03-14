@@ -29,9 +29,9 @@
 <!-- LIVE LINKS -->
 | | Link |
 |---|---|
-| 🖥️ **Live Frontend** | [lexai.vercel.app](https://lexbrain-ai.vercel.app) |
-| ⚡ **Live API** | [lexai-api.onrender.com](https://lexbrain-ai.onrender.com) |
-| 📖 **API Docs (Swagger)** | [lexai-api.onrender.com/docs](https://lexbrain-ai.onrender.com/docs) |
+| 🖥️ **Live Frontend** | [lexbrain-ai.vercel.app](https://lexbrain-ai.vercel.app) |
+| ⚡ **Live API** | [lexbrain-ai.onrender.com](https://lexbrain-ai.onrender.com) |
+| 📖 **API Docs (Swagger)** | [lexbrain-ai.onrender.com/docs](https://lexbrain-ai.onrender.com/docs) |
 
 <br/>
 
@@ -146,7 +146,7 @@ User describes legal situation (text or voice input)
 
 ## Live Demo
 
-**Frontend** — [lexai.vercel.app](https://lexbrain-ai.vercel.app)
+**Frontend** — [lexbrain-ai.vercel.app](https://lexbrain-ai.vercel.app)
 
 Create a free account, describe your legal situation, and get a full analysis in seconds. Download the PDF or DOCX report. All cases are saved to your history.
 
@@ -366,7 +366,7 @@ Downloads a professionally formatted PDF report.
 ### `GET /api/report/download/{id}/docx` 🔐
 Downloads a Word document report.
 
-Full interactive docs at **[lexai-api.onrender.com/docs](https://lexbrain-ai.onrender.com/docs)**
+Full interactive docs at **[lexbrain-ai.onrender.com/docs](https://lexbrain-ai.onrender.com/docs)**
 
 ---
 
