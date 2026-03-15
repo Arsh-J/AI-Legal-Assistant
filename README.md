@@ -19,6 +19,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![Gemini](https://img.shields.io/badge/Gemini-1.5_Flash-4285F4?style=flat-square&logo=google&logoColor=white)](https://aistudio.google.com)
 [![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://sqlite.org)
+[![Redis](https://img.shields.io/badge/Redis-Cache-DC382D?style=flat-square&logo=redis&logoColor=white)](https://redis.io)
 [![JWT](https://img.shields.io/badge/Auth-JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)](#authentication)
 [![License](https://img.shields.io/badge/License-MIT-94A3B8?style=flat-square)](LICENSE)
 [![Agents](https://img.shields.io/badge/AI_Agents-5-E8A838?style=flat-square)](#ai-pipeline)
@@ -265,6 +266,7 @@ Open `.env` and configure:
 DATABASE_URL=sqlite:///./legal_assistant.db
 SECRET_KEY=your-long-random-secret-key-here
 GEMINI_API_KEY=your_gemini_key_here   # Leave blank to use intelligent mock responses
+REDIS_URL=redis://localhost:6379      # Redis cache for faster performance
 ```
 
 > **Get a free Gemini API key:** [aistudio.google.com](https://aistudio.google.com) → Get API Key → Create API Key. The free tier supports this project without any billing.
@@ -479,6 +481,7 @@ allow_origins=[
 | **ORM** | SQLAlchemy | Database models · queries |
 | **Validation** | Pydantic v2 | Request/response schema validation |
 | **Database** | SQLite (dev) · PostgreSQL (prod) | Persistent case storage |
+| **Caching** | Redis | API response caching for lower latency |
 | **AI** | Google Gemini 1.5 Flash | LLM for all 5 agents |
 | **Auth** | python-jose (JWT) · passlib (bcrypt) | Stateless auth · password hashing |
 | **PDF Reports** | ReportLab | Professional PDF generation |
